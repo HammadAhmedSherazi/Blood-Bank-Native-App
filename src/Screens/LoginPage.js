@@ -26,7 +26,7 @@ export default function loginPage(){
                  <TouchableOpacity
         // onPress={() => navigation.navigate("Login Page")}
         style={styles.btn}>
-        <Text style={{ fontSize: 20, color: '#fff' }}>Login</Text>
+        <Text style={{ fontSize: 18, color: '#fff', textAlign:"center" }}>Login</Text>
       </TouchableOpacity>
       <View style={styles.checkboxContainer}>
             <View style={{flexDirection:'row'}}>
@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
       justifyContent: "center",
       alignItems:"center",
       backgroundColor: 'red',
-      marginBottom:10
+      marginBottom:15
       
     },
 //  header:{
